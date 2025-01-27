@@ -58,7 +58,6 @@
             
             <p>and this page has been viewed <a id="counter"></a> times :) </p> 
             <ul class="social">
-               <li><a href="https://madebygps.com"><i class="fa fa-external-link"></i></a></li>
                <li><a href="https://linkedin.com/in/rohithnedu"><i class="fa fa-linkedin"></i></a></li>
                <li><a href="https://github.com/Rnedu"><i class="fa fa-github"></i></a></li>
             </ul>
@@ -80,7 +79,7 @@
 
          <div class="three columns">
 
-            <img class="profile-pic"  src="images/me.jpeg" alt="" />
+            <img class="profile-pic"  src="images/me.jpeg" alt="Picture of Rohith" />
 
          </div>
 
@@ -88,13 +87,14 @@
 
             <h2>ABOUT ME</h2>
 
-            <p> Hi, I'm Rohith Nedunchezian, <span>Software Engineer at <a href="https://loancheckr.com.au">LoanCheckr</a></span>, <span> <a href="https://mvp.microsoft.com/en-us/PublicProfile/5003866">AWS Certified</a></span>
-               and <span><a href="https://youtube.com/madebygps">YouTuber</a></span> focused on making cloud learning more accessible and less daunting for everyone. 
+            <p> Hi, I’m Rohith Nedunchezian — a passionate and driven Software Engineer with experience in AI, cloud computing, and full-stack development. I’m currently pursuing a Bachelor of Engineering (Software) at the University of Sydney, where I’m working on cutting-edge projects, including a thesis on Generative AI in Education.
+            
+            <p> Over the years, I’ve had the privilege of contributing to startups and established companies, focusing on AI tools, scalable infrastructure, and bridging technical and business solutions.
                
          </br>
       </br>
        I built this page as part of the <span><a href="https://github.com/madebygps/cgc-azure-resume">Cloud Guru Azure Resume Challenge.</a></span>
-       However, I went on to build this on AWS to test myself.     
+       However, I went on to build this on AWS instead to test myself.     
 
          </div> <!-- end .main-col -->
 
@@ -153,6 +153,7 @@
          </div> <!-- main-col end -->
 
       </div> <!-- End Education -->
+   
 
 
       <!-- Work
@@ -169,11 +170,20 @@
 
                <div class="twelve columns">
 
-                  <h3>LoanCheckr</h3>
+                  <h3><a href="https://www.loancheckr.com.au/">LoanCheckr</a> </h3>
                   <p class="info">Software Engineer (Product Development) <span>&bull;</span> <em class="date">January 2024 - Present</em></p>
 
                   <p>
-                  <li>Creating awesome cloud computing content.</li> 
+                  <li>Spearheaded a cross-functional Agile team to manage over 150 Jira tickets for the LoanCheckr platform, achieving on-
+                     time delivery while improving sprint efficiency by 40%, building a SaaS platform with MERN Stack.</li>
+
+                  <li>Collaborated on the integration of cloud solutions (AWS) and usage of EKS & APIs that enhanced data processing
+                     capabilities, resulting in an increase of transaction handling capacity to over 10,000 transactions per minute and
+                     minimizing downtime by 60%.</li>   
+
+                  <li>Translated complex business objectives into actionable technical requirements, while ensuring SOC2 compliance for
+                     sensitive financial data. enhancing communication between 10+ non-technical stakeholders and a development team,
+                     resulting in a 30% reduction in project delays.</li> 
                   </p>
 
                </div>
@@ -184,13 +194,13 @@
 
                <div class="twelve columns">
 
-                  <h3>InnoSpace</h3>
+                  <h3><a href="https://www.innospace.com.au/">InnoSpace</a></h3>
                   <p class="info">Contract Software Engineer <span>&bull;</span> <em class="date">October 2023 - Present</em></p>
 
                   <p>
-                     <li>Developed cloud native solutions in Azure</li>
-                     <li>CI/CD with Azure DevOps</li>
-                     <li>Full stack .NET development</li>
+                     <li>Contracted by a Wix Velo certified digital transformation agency to coordinate with various businesses to achieve
+                        their technical business needs.</li>
+                     <li>MERN Stack Development</li>
                   </p>
 
                </div>
@@ -201,14 +211,11 @@
 
                <div class="twelve columns">
 
-                  <h3>Simplr Solutions</h3>
+                  <h3><a href="https://simplr.net/">Simplr Solutions</a></h3>
                   <p class="info">Project Management Intern <span>&bull;</span> <em class="date">December 2024 - January 2025</em></p>
 
                   <p>
-                  <li>Atlassian suite administration</li>
-                  <li>O365 suite administration</li>
-                  <li>SQL server 2019 administration</li>
-                  <li>Azure infrastructure administration</li>
+                  <li>Reviewed and edited Business Requirement Documents (BRDs) for FMCGs companies in the ASEAN region</li>
                   </p>
 
                </div>
@@ -223,7 +230,40 @@
                   <p class="info">Software Engineer Intern <span>&bull;</span> <em class="date">October 2023 - December 2023</em></p>
 
                   <p>
-                  <li>Front line help desk IT support</li>
+                  <li>LLM Development for Open Banking.
+                     My role involves designing and implementing AI-driven solutions that significantly improve the accuracy and efficiency of our financial services.</li>
+                     
+                  <li>Entrusted with managing and processing sensitive financial data, ensuring stringent adherence to data security and privacy regulations (SOC2).</li>
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+
+      <div class="row project">
+
+         <div class="three columns header-col">
+            <h1><span>Projects</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>This Resume Website</h3>
+
+                  <p>
+                  <li>Built on Javascript and HTML, hosted on AWS using s3</li> 
+                  <li>Distributed by Cloud Front, Route 53 and ACM </li> 
+                  <li>Uses Lambda (Serverless Function) for the counter</li>
+                  <li>Uses GitHub Actions to maintain CI/CD Pipeline</li> 
                   </p>
 
                </div>
@@ -234,21 +274,24 @@
 
                <div class="twelve columns">
 
-                  <h3>Apple Danbury</h3>
-                  <p class="info">Mobile tech <span>&bull;</span> <em class="date">December 2014 - August 2016</em></p>
+                  <h3>Research Thesis on Generative AI in Education</h3>
 
                   <p>
-                  <li>Repaired software and hardware issues related to iOS devices</li>
-                  
+                  <li>Frontend built on Reach, hosted and distributed on Vercel</li> 
+                  <li>Backend hosted on Supabase, with encrypted authenticator</li>
+                  <li>Uses OpenAI API and Langchain to integrate LLM chatbot</li>
+                  <li>Implemented RAG system provided by PineCone Vector Database</li> 
                   </p>
 
                </div>
 
             </div> <!-- item end -->
 
+
          </div> <!-- main-col end -->
 
-      </div> <!-- End Work -->
+      </div> <!-- End Projects -->
+
 
 
       
@@ -265,7 +308,6 @@
          <div class="twelve columns">
 
             <ul class="social-links">
-               <li><a href="https://madebygps.com"><i class="fa fa-external-link"></i></a></li>
                <li><a href="https://linkedin.com/in/rohithnedu"><i class="fa fa-linkedin"></i></a></li>
                <li><a href="https://github.com/Rnedu"><i class="fa fa-github"></i></a></li>
             </ul>
@@ -285,7 +327,7 @@
 
    <!-- Java Script
    ================================================== -->
-   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
    <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
    <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
 
